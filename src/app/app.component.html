@@ -1,7 +1,7 @@
 <button type="button" (click)="openModel()">Open Modal</button>
 
 <div class="modal d-none" #modal id="modal">
-  <!-- Modal content -->
+
   <div class="modal-content">
     <span (click)="closeModel()" class="close">&times;</span>
     <p>Some text in the Modal..</p>
@@ -11,9 +11,9 @@
 <br><br>
 <button type="button" (click)="show()">Open Modal Angular</button> 
 
-<div class="bg-success" *ngIf="showPop">
+<div class="my-modal" *ngIf="showPop">
   <!-- Modal content -->
-  <div class="modal-content">
+  <div class="my-modal-content">
     <span (click)="hide()" class="close">&times;</span>
     <p>Some text in the Modal..</p>
   </div>

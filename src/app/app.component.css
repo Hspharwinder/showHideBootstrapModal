@@ -26,6 +26,8 @@
   text-decoration: none;
   cursor: pointer;
 }
+
+// custom css for popup modal
 .my-modal {
     background-color: rgba(0, 0, 0, 0.32);
     position: fixed;
